@@ -1,0 +1,78 @@
+/*
+ de Matheo Coquet
+ *body : ensemble du texte
+ *si dessous on n'a :
+ *1 : le fond
+ *2 : le texte centrer
+ *3 : l'encrage de la police d'écriture
+ 
+ */
+@font-face {font-family: 'Pinto-NO_01';src: url('webfonts/37BF10_0_0.eot');
+    src: url('webfonts/37BF10_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37BF10_0_0.woff2') format('woff2'),url('webfonts/37BF10_0_0.woff') format('woff'),url('webfonts/37BF10_0_0.ttf') format('truetype');}
+
+body{
+      background-color: #f4f0e4 ;
+        font-family: "Pinto-NO_01" ;
+}
+
+
+p{
+      color: #796758;
+      font-size: xx-large
+}
+
+a{
+      color: #768682;
+      text-decoration: none;
+
+}
+
+/*
+*/
+
+.img-logo-container {
+    text-align: center;
+}
+
+.img-logo {
+    width: 50%;
+    height: auto;
+    margin-top: 5em;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.contact-container img {
+    margin: 0 4em;
+}
+
+.description-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+p.description {
+    text-align: left;
+    padding-left: 2em;
+}
+
+span.txt-color-green {
+    color: ;
+}
+
+span.txt-color-brown {
+    color: ;
+}
+
+p.description-underlink {
+    text-align: left;
+    padding-left: 3em;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    font-family: 'blabal';
+}
