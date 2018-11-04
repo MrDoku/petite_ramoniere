@@ -10,6 +10,12 @@
 @font-face {font-family: 'Pinto-NO_01';src: url('webfonts/37BF10_0_0.eot');
     src: url('webfonts/37BF10_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37BF10_0_0.woff2') format('woff2'),url('webfonts/37BF10_0_0.woff') format('woff'),url('webfonts/37BF10_0_0.ttf') format('truetype');}
 
+@font-face {font-family: 'Pinto-NO_03EngravedDisplay';src: url('webfonts/37BF10_4_0.eot');src: url('webfonts/37BF10_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37BF10_4_0.woff2') format('woff2'),url('webfonts/37BF10_4_0.woff') format('woff'),url('webfonts/37BF10_4_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Pinto-NO_03Engraved';src: url('webfonts/37BF10_3_0.eot');src: url('webfonts/37BF10_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37BF10_3_0.woff2') format('woff2'),url('webfonts/37BF10_3_0.woff') format('woff'),url('webfonts/37BF10_3_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Pinto-NO_02';src: url('webfonts/37BF10_2_0.eot');src: url('webfonts/37BF10_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/37BF10_2_0.woff2') format('woff2'),url('webfonts/37BF10_2_0.woff') format('woff'),url('webfonts/37BF10_2_0.ttf') format('truetype');}
+
 body{
       background-color: #f4f0e4 ;
         font-family: "Pinto-NO_01" ;
@@ -62,7 +68,7 @@ p.description {
 }
 
 span.txt-color-green {
-    color: ;
+    color: #798480 ;
 }
 
 span.txt-color-brown {
@@ -74,5 +80,6 @@ p.description-underlink {
     padding-left: 3em;
     text-transform: lowercase;
     font-size: 1.5em;
-    font-family: 'blabal';
+    font-family: 'Pinto-NO_02';
+    color: #89ACB0 ;
 }
